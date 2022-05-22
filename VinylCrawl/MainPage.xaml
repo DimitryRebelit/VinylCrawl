@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VinylCrawl.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30">
+            <Label Text="Tired of picking a fitting LP to play from your collection? " 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            <Label Text="Not anymore! Link your Discogs account and let's get started! " 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            <Button x:Name="LinkDiscogsButton" Clicked="LinkDiscogsButton_Clicked"  Text="Link your discogs account" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
