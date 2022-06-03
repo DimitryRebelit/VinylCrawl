@@ -1,6 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
 using VinylCrawl.Discogs.Agents;
 using VinylCrawl.Discogs.Agents.Interfaces;
+using VinylCrawl.Discogs.Services;
+using VinylCrawl.Discogs.Services.Interfaces;
 
 namespace VinylCrawl.Discogs
 {
@@ -12,6 +14,7 @@ namespace VinylCrawl.Discogs
             services.AddScoped<ICollectionAgent, CollectionAgent>();
             services.AddScoped<IAuthAgent, AuthAgent>();
             services.AddScoped<IIdentityAgent, IdentityAgent>();
+            services.AddScoped<IDiscogsService, DiscogsService>();
             return services;
         }
     }

@@ -12,6 +12,8 @@
         /// </summary>
         public static string ConsumerSecret => "RxHHbMkDoDoNKqtWRpNWSLeMiRLJbGNs";
 
+        public static string CallbackUri => "vinylcrawl://";
+
         public static string BaseUrl => "https://api.discogs.com/";
     }
 }

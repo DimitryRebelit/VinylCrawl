@@ -15,7 +15,7 @@ namespace VinylCrawl.Discogs.Agents
     /// <summary>
     ///     Base http caller
     /// </summary>
-    public abstract class BaseHttpAgent
+    internal abstract class BaseHttpAgent
     {
         protected static async Task<RetrieveRequestTokenResponse?> AccessTokenOAuth(string uri,
             string? authenticationHeaders = null)

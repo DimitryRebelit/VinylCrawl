@@ -7,7 +7,7 @@ using VinylCrawl.Discogs.Helpers;
 
 namespace VinylCrawl.Discogs.Responses
 {
-    public class RetrieveRequestTokenResponse
+    internal class RetrieveRequestTokenResponse
     {
         public RetrieveRequestTokenResponse(string response)
         {

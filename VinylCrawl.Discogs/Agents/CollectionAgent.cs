@@ -4,7 +4,7 @@ using VinylCrawl.Discogs.Agents.Interfaces;
 
 namespace VinylCrawl.Discogs.Agents
 {
-    public class CollectionAgent : BaseHttpAgent, ICollectionAgent
+    internal class CollectionAgent : BaseHttpAgent, ICollectionAgent
     {
         public async Task<string> GetCollection(string userName)
         {

@@ -6,7 +6,7 @@ namespace VinylCrawl.Discogs.Agents.Interfaces
     /// <summary>
     ///     Authentication agent for communication with the authentication endpoints of the discogs api
     /// </summary>
-    public interface IAuthAgent
+    internal interface IAuthAgent
     {
         /// <summary>
         ///     Get request token for the app

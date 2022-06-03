@@ -4,7 +4,7 @@ using VinylCrawl.Discogs.Responses;
 
 namespace VinylCrawl.Discogs.Agents
 {
-    public class AuthAgent : BaseHttpAgent, IAuthAgent
+    internal class AuthAgent : BaseHttpAgent, IAuthAgent
     {
         public async Task<RetrieveRequestTokenResponse?> RetrieveRequestToken(string consumerKey, string consumerSecret)
         {

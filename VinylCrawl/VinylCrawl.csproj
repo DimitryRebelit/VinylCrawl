@@ -52,4 +52,14 @@
 	  <ProjectReference Include="..\VinylCrawl.Discogs\VinylCrawl.Discogs.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="Views\LoginView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Services\Interface\" />
+	</ItemGroup>
+
 </Project>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VinylCrawl.Discogs.Agents.Interfaces
 {
-    public interface IIdentityAgent
+    internal interface IIdentityAgent
     {
         Task <string> GetIdentity();
     }

@@ -6,7 +6,7 @@ namespace VinylCrawl.Discogs.Agents.Interfaces
     /// <summary>
     ///     Documentation
     /// </summary>
-    public interface ICollectionAgent
+    internal interface ICollectionAgent
     {
         public Task<string> GetCollection(string userName);
     }

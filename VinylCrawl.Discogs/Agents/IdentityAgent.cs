@@ -7,7 +7,7 @@ using VinylCrawl.Discogs.Agents.Interfaces;
 
 namespace VinylCrawl.Discogs.Agents
 {
-    public class IdentityAgent : BaseHttpAgent, IIdentityAgent
+    internal class IdentityAgent : BaseHttpAgent, IIdentityAgent
     {
         public async Task<string> GetIdentity()
         {
